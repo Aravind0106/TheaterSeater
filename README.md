@@ -18,7 +18,7 @@ RESTAPI CALLS:
 getNumOfSeatsAvail(int levelNum)
 1. URI--> http://localhost:8080/TheaterSeaterWeb/rest/ticketService/numOfSeatsAvailOnLevel/{levelNum}
 2. This will give the respone as : {"numOfAvailSeats":1250}
-3. Response object at \TheaterSeaterCommonObjects\src\main\java\com\seater\theater\json\SeatsAvailOutput.class
+3. Response object at \TheaterSeaterCommonObjects\src\main\java\com\seater\theater\json\SeatsAvailOutput.class.
 
 2. POST
 ---------------
