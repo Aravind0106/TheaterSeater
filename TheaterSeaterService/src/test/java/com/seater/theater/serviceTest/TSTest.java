@@ -52,84 +52,82 @@ public class TSTest {
 		MockitoAnnotations.initMocks(this);
 	}
 
-	@Test
+	@Test(expected=TicketServiceException.class)
 	public void test0InvalidLevelCheck() throws TicketServiceException {
 		//Mockito 
 		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
 		ticketService.numSeatsAvailable(5);
 		thrown.expect(TicketServiceException.class);
 		thrown.expectMessage(ErrorEnum.NO_SUCH_LEVEL.toString());
-		//assertEquals(1500,ticketService.numSeatsAvailable(4));
 	}
 	
 	@Test
-	public void test1NubOfSeatsAvailPerLevel() throws TicketServiceException {
+	public void test1NumOfSeatsAvailPerEachLevel() throws TicketServiceException {
 		//Mockito 
 		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
-		ticketService.numSeatsAvailable(1);
-		try{
-		assertEquals(1250, ticketService.numSeatsAvailable(1));
-		assertEquals(2000,ticketService.numSeatsAvailable(2));
-		assertEquals(1500,ticketService.numSeatsAvailable(3));
-		assertEquals(1500,ticketService.numSeatsAvailable(4));
-		}
-		catch(Exception e){
-			e.printStackTrace();
-		}
+		assertNotNull(ticketService.numSeatsAvailable(1));
+		assertNotNull(ticketService.numSeatsAvailable(2));
+		assertNotNull(ticketService.numSeatsAvailable(3));
+		assertNotNull(ticketService.numSeatsAvailable(4));
 	}
+	
 	@Test
-	public void test2SeatHoldSimpleAndTestAvailSeatsNumber() throws TicketServiceException {
-		//This will check if 2 seats er
+	public void test2SeatsHoldInGivenLevels() throws TicketServiceException {
+		//Mockito 
+		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
+		SeatHold seatsHeld = ticketService.findAndHoldSeats(5, 1,2, "aravind0106@gmail.com");
+		assertNotNull(seatsHeld);
+		assertEquals(5,seatsHeld.getSeatsHeld().size());
+	}
+	
+	@Test
+	public void test3SeatHoldSimple() throws TicketServiceException {
 		//Mockito 
 		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
 		SeatHold seatsHeld = ticketService.findAndHoldSeats(2, 1,1, "aravind0106@gmail.com");
-		System.out.println("Test2:"+ seatsHeld.getSeatHoldCode());
 		assertEquals(2,seatsHeld.getSeatsHeld().size());
 	}
 	
-	
-	@Test
-	public void test3SeatsHoldManyMorethanLevel1And2() throws TicketServiceException {
-		//Since Level1(1250 max) can accomodate , it should fill up seats in Level2, as it has 2000 seats
+	@Test(expected=TicketServiceException.class)
+	public void test4SeatHoldInvalidLevels() throws TicketServiceException {
 		//Mockito 
 		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
-		SeatHold seatsHeld = ticketService.findAndHoldSeats(20, 1, 2, "aravind0106@gmail.com");
-		System.out.println("Test3:"+ seatsHeld.getSeatHoldCode());
-		assertNotNull(seatsHeld);
-		assertEquals(20,seatsHeld.getSeatsHeld().size());
+		ticketService.findAndHoldSeats(2, 5,0, "aravind0106@gmail.com");
+		thrown.expect(TicketServiceException.class);
+		thrown.expectMessage(ErrorEnum.NO_SUCH_LEVEL.toString());
+	}
+
+	@Test(expected=TicketServiceException.class)
+	public void test6SeatHoldAlreadyReserved() throws TicketServiceException {
+		//Mockito 
+		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
+		SeatHold seatsHeld = ticketService.findAndHoldSeats(3, 1, 4, "aravind0106@gmail.com");
+		 ticketService.reserveSeats(seatsHeld.getSeatHoldCode(), "aravind0106@gmail.com");
+		 ticketService.reserveSeats(seatsHeld.getSeatHoldCode(), "aravind0106@gmail.com");
+			thrown.expect(TicketServiceException.class);
+			thrown.expectMessage(ErrorEnum.ALREADY_RESERVED.toString());
 	}
 	
 	@Test
-	public void test4HoldAndReserve() throws TicketServiceException {
+	public void test7FullFucntional() throws TicketServiceException {
 		//Mockito 
 		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
-		SeatHold seatsHeld = ticketService.findAndHoldSeats(2, 1, 1, "aravind0106@gmail.com");
-		assertEquals(2,seatsHeld.getSeatsHeld().size());
-		String confCode;
-			confCode= ticketService.reserveSeats(seatsHeld.getSeatHoldCode(), "aravind0106@gmail.com");
-			assertNotNull(confCode);
-			System.out.println("Test4:"+ seatsHeld.getSeatHoldCode());
+		assertNotNull((ticketService.numSeatsAvailable(1)));
+		SeatHold seatsHeld = ticketService.findAndHoldSeats(3, 1, 4, "aravind0106@gmail.com");
+		assertEquals(3,seatsHeld.getSeatsHeld().size());
+		String confCode = ticketService.reserveSeats(seatsHeld.getSeatHoldCode(), "aravind0106@gmail.com");
+		assertNotNull(confCode);
 	}
 	
-	@Test
-	public void test5SeatHoldMoreThanLevel4TOFail() throws TicketServiceException {
-		// This will try to hold more seats than what what level 4 can accomodate
+	@Test(expected=TicketServiceException.class)
+	public void test9SeatHoldReservationFull() throws TicketServiceException {
 		//Mockito 
 		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
-		SeatHold seatsHeld = ticketService.findAndHoldSeats(2000, 1, 4, "aravind0106@gmail.com");
-		System.out.println("Test5:"+ seatsHeld.getSeatHoldCode());
-		//assertNull(seatsHeld);
+		ticketService.findAndHoldSeats(2000, 1,1, "aravind0106@gmail.com");
+		thrown.expect(TicketServiceException.class);
+		thrown.expectMessage(ErrorEnum.RESERVATION_FULL.toString());
 	}
 	
-	@Test
-	public void test6SeatHoldAcrossLevel3and4() throws TicketServiceException {
-		//This will check if the application handles the the booking across two rows 
-		//Mockito 
-		stub(theatreDSI.getAuditoriumDetails()).toReturn(auditorium);
-		SeatHold seatsHeld = ticketService.findAndHoldSeats(30, 3, 4, "aravind0106@gmail.com");
-		System.out.println("Test6:"+ seatsHeld.getSeatHoldCode());
-		assertNotNull(seatsHeld.getSeatHoldCode());
-	}
 		
 	}
 

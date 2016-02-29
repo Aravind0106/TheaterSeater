@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.031" errors="0" skipped="0" tests="6" name="com.seater.theater.serviceTest.TSTest">
+<testsuite failures="0" time="0.578" errors="0" skipped="0" tests="8" name="com.seater.theater.serviceTest.TSTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_21\jre\bin"/>
@@ -61,10 +61,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase time="0.016" classname="com.seater.theater.serviceTest.TSTest" name="test1NubOfSeatsAvailPerLevel"/>
-  <testcase time="0" classname="com.seater.theater.serviceTest.TSTest" name="test2SeatHoldSimpleAndTestAvailSeatsNumber"/>
-  <testcase time="0.015" classname="com.seater.theater.serviceTest.TSTest" name="test3SeatsHoldManyMorethanLevel1And2"/>
-  <testcase time="0" classname="com.seater.theater.serviceTest.TSTest" name="test4HoldAndReserve"/>
-  <testcase time="0" classname="com.seater.theater.serviceTest.TSTest" name="test5SeatHoldMoreThanLevel4TOFail"/>
-  <testcase time="0" classname="com.seater.theater.serviceTest.TSTest" name="test6SeatHoldAcrossLevel3and4"/>
+  <testcase time="0.024" classname="com.seater.theater.serviceTest.TSTest" name="test0InvalidLevelCheck"/>
+  <testcase time="0.139" classname="com.seater.theater.serviceTest.TSTest" name="test1NumOfSeatsAvailPerEachLevel"/>
+  <testcase time="0.032" classname="com.seater.theater.serviceTest.TSTest" name="test2SeatsHoldInGivenLevels"/>
+  <testcase time="0.063" classname="com.seater.theater.serviceTest.TSTest" name="test3SeatHoldSimple"/>
+  <testcase time="0.037" classname="com.seater.theater.serviceTest.TSTest" name="test4SeatHoldInvalidLevels"/>
+  <testcase time="0.125" classname="com.seater.theater.serviceTest.TSTest" name="test6SeatHoldAlreadyReserved"/>
+  <testcase time="0.087" classname="com.seater.theater.serviceTest.TSTest" name="test7FullFucntional"/>
+  <testcase time="0.071" classname="com.seater.theater.serviceTest.TSTest" name="test9SeatHoldReservationFull"/>
 </testsuite>

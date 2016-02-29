@@ -209,4 +209,579 @@
 2016-02-28 18:19:32 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 5
 
 
-Github CHeck
+Github CHeck2016-02-28 21:47:50 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 21:47:50 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 21:47:50 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :2d0c222d-1604-4874-a2c1-fbb3c5f42314
+2016-02-28 21:47:50 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 3
+2016-02-28 21:47:50 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :2d0c222d-1604-4874-a2c1-fbb3c5f42314
+2016-02-28 21:47:50 ERROR TicketServiceHelper:155 - The seat provided already exists
+2016-02-28 22:05:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:05:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:05:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:05:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:05:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :4a7340eb-4006-4733-b3b9-aa56a71c5703
+2016-02-28 22:05:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :73fff948-e488-4e53-8436-44f38770f5cc
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :8084ab51-0a60-498e-96e3-de191572d656
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :740aaea6-8760-4685-ba24-4a92091eee62
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :26fc7b3d-23f5-419a-8eae-734eb4602453
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :fdc6da44-1e66-4c64-b8ea-4ce38c77f607
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :d8ddf9bf-02f2-42d9-9899-9c8e856e0078
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :9dec5f64-2624-4567-ad88-62cf921a5aca
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :78f1ed6d-23d3-4e3a-b311-7ce178d02506
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :c3ab48fa-0bc1-477c-b1f1-a55faa5e912c
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :2ed1f1f7-ff96-418e-99b9-38419ee3aa12
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:06:16 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :1eb3cd17-556b-4e5b-b836-b52a6162c0a6
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :0bc8d78b-2ba8-4c24-aa04-bca95bc0890b
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :2b636945-6fb3-45da-879e-dd50c72dc0c6
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :bbd8ddc7-8c38-4510-aa6b-e49e4d799660
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :86895da2-fedc-412b-9e1b-7e6fad57b690
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :2d0f33ba-5c52-449f-a36e-7c4c8058aeaf
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :ba05302b-4680-4413-b202-f4b1ebf5a9cf
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :81f1f949-ce1a-4e6b-8f84-974e938504cc
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :59b2706b-c16e-4867-a0a6-31912eac3f5b
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :1f3c9408-b250-4921-85bf-aaf044bfe0c6
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:07:46 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:08:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :9d5f6ebb-e8a3-49a6-b827-d941a03baddd
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :5d2cc59f-87fb-40be-8714-675dca6c4b2f
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :ccb0b948-4994-48c6-8f7f-0bc68080712c
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :ac4712d9-e407-4c44-b77c-b302c4fcf142
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :9eaca261-61c3-48b7-a241-34ac7713caca
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :d71612a1-9cc5-4638-a191-007b7387a6ae
+2016-02-28 22:08:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :5ee0fd7d-9d0d-4a68-bdab-2c1abb4ac274
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :5a1290b8-af09-4e7a-bbc5-3c4c823ae519
+2016-02-28 22:08:19 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :3d01295e-c99a-4d48-9bd8-d841d21288ce
+2016-02-28 22:08:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :ab8aba90-d4bd-470e-afb5-5e590bd5cf48
+2016-02-28 22:08:19 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:19 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:19 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:08:19 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:44 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :78c007fa-a796-499f-9b93-5588fb82aa85
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :77eb99af-2cf2-4ad4-bc8a-25b163f9cefb
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :8b77b631-97c0-494f-b915-16b48d547651
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :c5170e9b-359d-4aef-be24-12d0234e5284
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :2492f35b-4dd8-472c-9599-c115f749b10e
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :0cfd5bbc-0c4e-4ffb-bac4-d68093fa1232
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :1d756c4c-ae9d-4655-a285-004b8fc1c254
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :0e3d7068-a9c9-4ccc-aa05-38bd5f50e2da
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :1ba30c26-a2b7-4070-915c-fd551711bad6
+2016-02-28 22:09:45 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :5662e1fc-4c77-4991-a942-8460d9fa9c62
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:09:45 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :28ca50a9-dd91-4a18-a4ca-f0cbc33bc69f
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :01f980a9-1aa2-49fc-b510-290a6ff9882f
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :e7b3aded-eec7-475a-ba38-e630d73a5c0b
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :d7a0c5c5-1558-426e-bd51-fdfa96657bd6
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1205 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :3a2643d1-0064-478b-b54c-520dcb7b5c8a
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1195 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :be648964-12a1-4500-bd6a-2f6bc0ad57a4
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1190 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :7aeb4bdc-d4f9-41cb-9d5c-3fc89bdfc425
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :6f815c26-fcb7-45fa-8b0b-95bcd66cd53e
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1185 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :7f9e8011-271a-44c9-a7f4-09bcadd103ad
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1180 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :19b43c8b-879e-48c0-b7a3-310502d235c0
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1175 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1170 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1165 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1160 for level 1
+2016-02-28 22:10:15 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:10:15 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:10:15 INFO  TicketServiceHelper:45 - Number of seats available : 1155 for level 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 5
+2016-02-28 22:11:42 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 2
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 2000 for level 2
+2016-02-28 22:11:42 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 3
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 3
+2016-02-28 22:11:42 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 4
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 4
+2016-02-28 22:11:42 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1245 for level 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:11:42 ERROR TicketServiceHelper:57 - min level : 5 max level: 0
+2016-02-28 22:11:42 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1243 for level 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :077b49b8-d02e-4225-aab8-d0e1bc6fa42e
+2016-02-28 22:11:42 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 3
+2016-02-28 22:11:42 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :077b49b8-d02e-4225-aab8-d0e1bc6fa42e
+2016-02-28 22:11:42 ERROR TicketServiceHelper:155 - The seat provided already exists
+2016-02-28 22:11:42 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 2000 for level 2
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 3
+2016-02-28 22:11:42 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 4
+2016-02-28 22:11:42 INFO  TicketServiceHelper:109 - Could not hold any seats as Reservation is full in the given levels
+2016-02-28 22:18:08 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 5
+2016-02-28 22:18:08 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:18:08 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:18:08 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:18:08 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:18:08 INFO  TicketServiceHelper:45 - Number of seats available : 1245 for level 1
+2016-02-28 22:18:08 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:18:08 ERROR TicketServiceHelper:57 - min level : 5 max level: 0
+2016-02-28 22:18:08 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:18:08 INFO  TicketServiceHelper:45 - Number of seats available : 1243 for level 1
+2016-02-28 22:18:08 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :aefabb4e-7861-4c1f-b747-76267336a151
+2016-02-28 22:18:08 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 3
+2016-02-28 22:18:08 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :aefabb4e-7861-4c1f-b747-76267336a151
+2016-02-28 22:18:08 ERROR TicketServiceHelper:155 - The seat provided already exists
+2016-02-28 22:18:08 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:18:08 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:18:08 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:18:08 INFO  TicketServiceHelper:45 - Number of seats available : 2000 for level 2
+2016-02-28 22:18:08 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 3
+2016-02-28 22:18:08 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 4
+2016-02-28 22:18:08 INFO  TicketServiceHelper:109 - Could not hold any seats as Reservation is full in the given levels
+2016-02-28 22:19:02 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 5
+2016-02-28 22:19:02 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:19:02 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:19:02 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:19:02 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:19:02 INFO  TicketServiceHelper:45 - Number of seats available : 1245 for level 1
+2016-02-28 22:19:02 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:19:02 ERROR TicketServiceHelper:57 - min level : 5 max level: 0
+2016-02-28 22:19:02 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:19:02 INFO  TicketServiceHelper:45 - Number of seats available : 1243 for level 1
+2016-02-28 22:19:02 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :c295d353-0523-4eb1-ae7f-5c01073dd21d
+2016-02-28 22:19:02 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 3
+2016-02-28 22:19:02 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :c295d353-0523-4eb1-ae7f-5c01073dd21d
+2016-02-28 22:19:02 ERROR TicketServiceHelper:155 - The seat provided already exists
+2016-02-28 22:19:02 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:19:02 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:19:02 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:19:02 INFO  TicketServiceHelper:45 - Number of seats available : 2000 for level 2
+2016-02-28 22:19:02 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 3
+2016-02-28 22:19:02 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 4
+2016-02-28 22:19:02 INFO  TicketServiceHelper:109 - Could not hold any seats as Reservation is full in the given levels
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :22c106a1-48d5-4193-a96a-dcd1e0ad616e
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :fb5004f4-87c5-4ab4-8737-cc39419c8e66
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :bcfcb37d-56de-44ac-8ad9-81caabb70fcb
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :7e4c30a8-f576-4c09-ac17-c5f25d7de84b
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :b824918b-d267-49ad-ab86-981200396406
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :b2da2c13-5307-4250-87ac-af9150aa91b9
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1200 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1195 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :09207892-0371-4825-8999-be5ebc32c733
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :64e39b03-e437-4b93-82ea-0edf7ad665d5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :711b8a88-5ca2-4765-a7cf-f8d352b4b1ad
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1190 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :3f7ac4da-c9b8-4e12-8a8d-69152371e599
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1185 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1185 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1180 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1170 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1170 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 5
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1160 for level 1
+2016-02-28 22:23:18 INFO  TicketServiceHelper:45 - Number of seats available : 1160 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :cfa7040f-9d83-489c-bff1-5e2ffe8f4f9e
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :52867615-45f6-4cc7-bf8d-38a2714795f6
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1230 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1230 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :408d11de-531c-4533-bdca-11438ae9cd1f
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1230 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1220 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :8ec3b862-0d79-4559-b7fb-b2f2a244466e
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1200 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1200 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :0e447f5d-34eb-499e-835b-26aec15c11c2
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :da4e0632-0d88-41be-aa55-3a9169a6f925
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1220 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1230 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1180 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :5a535987-4ca6-4e60-82be-e5f90b411d9b
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1200 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :6a8dce7d-fbe2-489a-abcf-565d2fb319ea
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :fde6ede7-ea6f-4001-bbce-1545027416ad
+2016-02-28 22:23:26 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:26 INFO  TicketServiceHelper:45 - Number of seats available : 1160 for level 1
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :a584e2ad-db72-4fc6-978f-5095494ab431
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:26 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 10
+2016-02-28 22:23:34 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 5
+2016-02-28 22:23:34 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 2
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 2000 for level 2
+2016-02-28 22:23:34 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 3
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 3
+2016-02-28 22:23:34 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 4
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 4
+2016-02-28 22:23:34 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1250 for level 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1245 for level 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:34 ERROR TicketServiceHelper:57 - min level : 5 max level: 0
+2016-02-28 22:23:34 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1243 for level 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :681155c9-3eae-41b9-a7c3-c3e85428e953
+2016-02-28 22:23:34 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 3
+2016-02-28 22:23:34 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :681155c9-3eae-41b9-a7c3-c3e85428e953
+2016-02-28 22:23:34 ERROR TicketServiceHelper:155 - The seat provided already exists
+2016-02-28 22:23:34 INFO  TicketServiceHelper:29 - Performing numSeatsAvailable function for level : 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1240 for level 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:52 - Performing reserveSeats function for seatHoldId :022493d2-7335-40a3-a175-c51e451f61ff
+2016-02-28 22:23:34 INFO  TicketServiceHelper:163 - Num of seats reserved by this call: 3
+2016-02-28 22:23:34 INFO  TicketServiceHelper:42 - Performing findAndHoldSeats function for customer :aravind0106@gmail.com
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1237 for level 1
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 2000 for level 2
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 3
+2016-02-28 22:23:34 INFO  TicketServiceHelper:45 - Number of seats available : 1500 for level 4
+2016-02-28 22:23:34 INFO  TicketServiceHelper:109 - Could not hold any seats as Reservation is full in the given levels

@@ -51,6 +51,7 @@ import com.seater.theater.json.SeatHold;
 			List<Seat> seatsInSeq=new ArrayList<Seat>();
 			List<SeatDetail> heldList=new ArrayList<SeatDetail>();
 			String uuID=null;
+			//This should actually be read from the xml file.
 			if(minLevel<0 || minLevel>4 || maxLevel<0 || maxLevel>4)
 			{
 				logger.error(String.format("min level : %s max level: %s", minLevel, maxLevel));	

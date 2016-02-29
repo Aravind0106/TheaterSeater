@@ -1,1 +1,3 @@
 com\seater\theater\rest\TicketServiceWeb.class
+com\seater\theater\rest\exception\ALlOtherTicketServiceExceptionMapper.class
+com\seater\theater\rest\exception\TicketServiceExceptionMapper.class

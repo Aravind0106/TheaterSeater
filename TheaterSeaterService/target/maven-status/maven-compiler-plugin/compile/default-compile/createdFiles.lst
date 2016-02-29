@@ -1,3 +1,2 @@
-com\seater\theater\util\TheaterServiceUtil.class
-com\seater\theater\util\InternalTemporaryException.class
+com\seater\theater\util\TicketServiceHelper.class
 com\seater\theater\services\TheaterSeaterServiceImpl.class
