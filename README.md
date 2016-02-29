@@ -39,7 +39,7 @@ This is a Maven multi module project that has below modules
 2. Children-->TheaterSeaterCommonObjects, TheaterSeaterData, TheaterSeaterService, TheaterSeaterRest, 		    
            TheaterSeaterWeb,TheaterSeaterInterfaces
 
-BELOW IS THE TECHNOLOGY STACK TRACE:
+BELOW IS THE TECHNOLOGY STACK:
 ---------------------------------
 1. Spring 3.0.5(Annotation based) is Used for Dependency Injection
 2. Mockito and Spring test frameworks are used for testing JUNIT 
@@ -50,7 +50,7 @@ BELOW IS THE TECHNOLOGY STACK TRACE:
 7. Log4j logging used
 8. ExceptionMapper is used to send error code and description
 
-APPLICATION TEST CASE COVERED
+APPLICATION TEST CASES COVERED
 ---------------------------------
 
 int numSeatsAvailable(int venueLevel)
