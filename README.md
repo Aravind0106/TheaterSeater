@@ -11,7 +11,7 @@ _____________
 1. GET
 ---------------
 getNumOfSeatsAvail(int levelNum)
-URI -->http://localhost:8080/TheaterSeaterWeb/rest/ticketService/numOfSeatsAvailOnLevel/{levelNum}
+URI--> http://localhost:8080/TheaterSeaterWeb/rest/ticketService/numOfSeatsAvailOnLevel/{levelNum}
 This will give the respone as : {"numOfAvailSeats":1250}
 
 2. POST
@@ -34,8 +34,8 @@ About the Application
 ___________________________
 
 This is a Maven multi module project that has below modules
-Parent-->TheaterSeater
-Children-->TheaterSeaterCommonObjects, TheaterSeaterData, TheaterSeaterService, TheaterSeaterRest, 		    
+1. Parent-->TheaterSeater
+2. Children-->TheaterSeaterCommonObjects, TheaterSeaterData, TheaterSeaterService, TheaterSeaterRest, 		    
            TheaterSeaterWeb,TheaterSeaterInterfaces
 
 Below is the Technology Stack:
@@ -54,12 +54,14 @@ Application Functional Test Scenarios accomodated
 
 ---------------------------------------------------------------------------------------------------------------
 int numSeatsAvailable(int venueLevel)
+---------------------------------------------------------------------------------------------------------------
 1.  Find number of seats at any particular level
 2.  Check if the level is invalid
 3.  Handles DataBase issue, if the config TheaterSeatsConfiguration.xml is not able to be parsed/not available.
 
 ---------------------------------------------------------------------------------------------------------------
 SeatHold findAndHoldSeats(int numSeats, int minLevel, int maxLevel,String customerEmail)
+---------------------------------------------------------------------------------------------------------------
 1. Check if seats are available at particular level, and then go ahead to hold tickets
 2. Check if the min and max level are provided with invalid levels
 3. Check if the reservation is full in the provided levels
@@ -67,6 +69,7 @@ SeatHold findAndHoldSeats(int numSeats, int minLevel, int maxLevel,String custom
 
 ---------------------------------------------------------------------------------------------------------------
 String reserveSeats(String seatHoldId, String customerEmail)
+---------------------------------------------------------------------------------------------------------------
 1. Check if the seat  is already reserved
 2. Check if the hold code provided does not exist
 3. Concurrency when many threads access the same method at the same time
